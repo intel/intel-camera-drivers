@@ -1,0 +1,5 @@
+source "drivers/external_drivers/ipu/drivers/media/pci/intel-ipu4/Kconfig"
+source "drivers/external_drivers/ipu/drivers/media/platform/intel-ipu4/Kconfig"
+source "drivers/external_drivers/ipu/drivers/media/i2c/Kconfig"
+source "drivers/external_drivers/ipu/drivers/media/i2c/crlmodule/Kconfig"
+source "drivers/external_drivers/ipu/drivers/media/i2c/lc898122/Kconfig"

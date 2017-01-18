@@ -1,0 +1,6 @@
+config VIDEO_DW9714
+	tristate "dw9714 voice coil support"
+	select REGMAP_I2C
+	depends on I2C && VIDEO_V4L2
+	---help---
+	This is a driver for the DW9714 camera lens voice coil.
