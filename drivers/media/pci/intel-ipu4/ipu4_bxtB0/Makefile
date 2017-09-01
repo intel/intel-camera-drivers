@@ -22,5 +22,6 @@ include $(srcpath)/$(src)/../Makefile.link
 include $(srcpath)/$(src)/../Makefile.common
 ccflags-y += -I$(srcpath)/$(src)/../../../../../include/
 ccflags-y += -I$(srcpath)/$(src)/../
+ccflags-y += -I$(srcpath)/$(src)/../ipu4_$(IPU_STEP)
 
 ccflags-y += -DPARAMETER_INTERFACE_V2
